@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Spectral', serif;
+}
+
+.container {
+    display: grid;
+    grid-template: 
+
+    "header header header" 80px
+    "left-whitespace quotes right-whitespace" 100vh/
+        200px       1fr  200px;
+
+}
+
+
+.header {
+    grid-area: header;
+    border: 1px solid black;
+
+
+    background-color: #8c0031;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    color: #fffafb;
+    padding-left: 50px;
+    font-size: 50px;
+}
+
+.left-whitespace {
+    grid-area: left-whitespace;
+    
+}
+
+.right-whitespace {
+    grid-area: right-whitespace;
+}
+
+.quotes {
+    grid-area: quotes;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.quotes h2{
+    color: black;
+    font-size: 30px;
+    padding: 15px;
+    padding-left: 40px;
+
+}
+
+.textBox {
+    display: grid;
+
+    background-color: #c8e7c8;
+    text-align: center;
+    height: 100px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 80px;
+}
+
+.textBox span {
+    color: gray;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.textBox p {
+    font-style: italic;
+
+}
+
+.textBox2 {
+    display: grid;
+
+    background-color: #bcdefa;
+    border: 1px dotted black;
+    text-align: center;
+    height: 100px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 80px;
+}
+
+.textBox2 span {
+    color: gray;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.textBox2 p {
+    font-style: italic;
+}
