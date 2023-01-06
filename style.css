@@ -70,7 +70,6 @@
 .textBox span {
     color: gray;
     text-align: right;
-    padding-right: 5px;
     font-weight: bold;
 }
 
@@ -95,7 +94,6 @@
 .textBox2 span {
     color: gray;
     text-align: right;
-    padding-right: 5px;
     font-weight: bold;
 }
 
